@@ -107,7 +107,7 @@ When we dropped the columns, now we can filter out even more data that may not b
 
 From here, we have a table that is proper and can be processed for further analysis. We filtered out a CSV file that had over 100000 rows that is now reduced to 70000 rows. 
 
-Link to Documenation of Filtered Data in SQL: TBD 
+Link to Documenation of Filtered Data in SQL: [here](https://github.com/ahs04/Art-Auction-Data-Analysis/blob/main/code/DataCleaning.sql)
 
 ## Step 4: Analyze
 For this, we will use a combination of R and SQL. R would be the best case for data visualization as not only can we produce visualizations pretty quickly but it is also the best for static reports.
@@ -123,20 +123,20 @@ We are going to analyze the data to answer the following questions.
 ### Trends of Art Genres
 First off, let us see overall the trends in art genres over time.
 
-![Revenue Trends by Year of Art Genres](dataVisuals/q1_revenueByGenre.png)
+![Revenue Trends by Year of Art Genres](/assets/images/q1_revenueByGenre.png)
 
 Based on overall trends, paintings and sculptures make up a large majority of the revenue from auction houses over time. Both experience growth from 1995-2008 and 2009-2015. While 2016 does show a dramatic dip in revenue, this is due to limited data collected in 2016. At its peak, paintings represent over $1 billion dollars in sales and sculptures made up more than $250 million dollars in revenue.
 
 This is also apparent when distributing revenue as percentages over time.
 
-![Revenue Trends by Year of Art Genres in Percentage](dataVisuals/q1_salesVolume.png)
+![Revenue Trends by Year of Art Genres in Percentage](/assets/images/q1_salesVolume.png)
 
 When it comes to yearly revenue, paintings by far take up a significant chunk of sales volume with over 50% of revenue coming from that medium throughout the recorded time periods. It is overall a positive trend from 1995 to 2015 barring a dip in 2008. 
 
 ### Regions and Art Transactions
 If we were to analyze revenue by locations, there is a noticeable gap between the top 2 locations and the rest.
 
-![Region Performance](dataVisuals/q2_revenueByLocation.png)
+![Region Performance](/assets/images/q2_revenueByLocation.png)
 
 As indicated, New York and London dominates the art market by contributing at least $8 billion dollars combined. We can infer this due to the major art houses in the area which includes Sotheby's and Christie's. This is not to downplay the other locations as areas such as Paris and Hong Kong generates substantive revenue based on its historical art market and an Asian hub for sales respectively. While New York and London takes up a significant portion of the total revenue, secondary markets including Paris, Hong Kong, Cologne, India, and much more can be inferred of having influence in both regional sales and trends.
 
@@ -144,7 +144,7 @@ As indicated, New York and London dominates the art market by contributing at le
 
 Let's look at how each auction house is distributed based on the number of art pieces and total revenue.
 
-![Art House Distribution](dataVisuals/q3_auctionHousebyNumberofPieces.png)
+![Art House Distribution](/assets/images/q3_auctionHousebyNumberofPieces.png)
 
 From the graph itself, we used a scatterplot to show the relationship in quantifying the number of art pieces and total revenue and to see if there is a correlation. There are a few takeaways from the chart. Both Sotheby's and Christie's are high performers in both the number of pieces and revenue. Both auction houses have over 18000 pieces each sold and over $3.5 billion dollars in revenue with Sotheby slightly ahead. 
 
@@ -156,7 +156,7 @@ There are two major groups in approaching revenue for the auction houses. If the
 
 
 If we were to focus on each of the art houses it does reveal a bit more about the trends in individual pieces as data points.
-![Art House Distribution](dataVisuals/q3_distributionOfArtPrices.png)
+![Art House Distribution](/assets/images/q3_distributionOfArtPrices.png)
 
 Listed are the top 10 auction houses listed by total revenue. Each of the data points represents an art piece that is based on the price sold and distributed across the graph. 
 
