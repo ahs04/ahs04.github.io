@@ -5,6 +5,7 @@ layout: post
 
 Case Study from Google Data Analytics Capstone Project: [Google Data Analytics Capstone](https://www.coursera.org/learn/google-data-analytics-capstone)
 
+
 ## Introduction
 In this case study, I will perform data analysis on the art auction dataset collected by *Kangsan Lee et al.*. This dataset was initally found on the [Data Is Plural](https://www.data-is-plural.com/archive/2024-08-07-edition/) website and also was published [here](https://www.nature.com/articles/s41598-024-60957-z). I will use this dataset to analyze trends and patterns for a fictional art magazine client and highlight the main pieces for consideration in future publications.
 
@@ -127,6 +128,7 @@ First off, let us see overall the trends in art genres over time.
 Based on overall trends, paintings and sculptures make up a large majority of the revenue from auction houses over time. Both experience growth from 1995-2008 and 2009-2015. While 2016 does show a dramatic dip in revenue, this is due to limited data collected in 2016. At its peak, paintings represent over $1 billion dollars in sales and sculptures made up more than $250 million dollars in revenue.
 
 This is also apparent when distributing revenue as percentages over time.
+
 ![Revenue Trends by Year of Art Genres in Percentage](dataVisuals/q1_salesVolume.png)
 
 When it comes to yearly revenue, paintings by far take up a significant chunk of sales volume with over 50% of revenue coming from that medium throughout the recorded time periods. It is overall a positive trend from 1995 to 2015 barring a dip in 2008. 
