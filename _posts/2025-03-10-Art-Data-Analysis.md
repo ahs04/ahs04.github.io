@@ -1,3 +1,8 @@
+---
+title:  "Data Analyst Capstone Project"
+layout: post
+---
+
 Case Study from Google Data Analytics Capstone Project: [Google Data Analytics Capstone](https://www.coursera.org/learn/google-data-analytics-capstone)
 
 ## Introduction
